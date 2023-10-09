@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/principal_desing">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_result"
+        android:text="@string/result"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_search_QR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_color"
+        android:text="@string/btn_read_qr"
+        android:drawableTop="@drawable/qr_code"
+        android:textColorHint="@color/black"
+        android:paddingTop="10dp"/>
+
+
+</LinearLayout>
